@@ -1,4 +1,4 @@
-// Generated from /home/andresmonjaras/equipoLyA2/ejercicio2/Expr.g4 by ANTLR 4.13.1
+// Generated from /home/omarbolanos/Documentos/REPOSITORIOS/EjercicioLyA2/ejercicio2/Expr.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
