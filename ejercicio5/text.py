@@ -3,7 +3,12 @@ from ExprLexer import ExprLexer
 import sys
 
 
-input_stream = FileStream(sys.argv[1], encoding='utf-8')
+if len(sys.argv) > 1:
+    # entrada por archivo
+    input_stream = FileStream(sys.argv[1], encoding='utf-8')
+else:
+    # entrada por terminal
+    input_stream = InputStream(input("? "))
 
 lexer = ExprLexer(input_stream)
 

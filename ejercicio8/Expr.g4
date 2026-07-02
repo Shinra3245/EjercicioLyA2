@@ -5,7 +5,7 @@ root : expr EOF;
 // expr : expr MAS expr | NUM;
 expr : EOF;
 
-NUM   : [0-9]+ ;
-SUM   : '+' ;
-SIGNO : '*' ;
-WS    : [ \t\r\n]+ -> skip ;
+ID  : [a-zA-Z]+ ;
+OP  : '>=' ;
+NUM : [0-9]+ ;
+WS  : [ \t\r\n]+ -> skip ;
