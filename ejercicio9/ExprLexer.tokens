@@ -1,0 +1,13 @@
+IF=1
+PAR_I=2
+PAR_F=3
+ID=4
+SIGNO_MA=5
+IGUAL=6
+NUM=7
+WS=8
+'if'=1
+'('=2
+')'=3
+'>'=5
+'='=6
